@@ -1,0 +1,210 @@
+.color_second{
+	color: #dd3333;
+}
+.navbar-collapse.collapse.in{
+	background: white;
+	position: fixed;
+	top: 35px;
+	margin: 0px;
+	width: 100%;
+}
+.dropdown-submenu {
+	position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu>li>a{
+	font-size: 9px!important;
+}
+.dropdown-submenu>.dropdown-menu>li>a{
+	font-size: 9px!important;
+	color: white!important;
+	background: #dd3333;
+}
+.dropdown-submenu>.dropdown-menu>li>a:before{
+	content: "-";
+}
+.level3-menu>li>a{
+	background: #962323!important;
+}
+.level3-menu>li>a:before{
+	content: "--"!important;
+}
+
+.dropdown-submenu>a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #ccc;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+	border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+	float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	-webkit-border-radius: 6px 0 6px 6px;
+	-moz-border-radius: 6px 0 6px 6px;
+	border-radius: 6px 0 6px 6px;
+}
+
+.text-white{
+	color: white!important;
+}
+.text-gray{
+	color: #878787!important;
+}
+.bannerBelowSlide{
+	position:relative; 
+	padding: 50px;
+	// max-height: 260px; 
+	margin-top:-50px; 
+	border-bottom-width: 5px !important;
+	background: #2986e2 url('../images/bg4897.jpg') !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	border-bottom-color: #f26529 !important;
+	border-bottom-style: solid !important;
+}
+// .bannerBelowSlide h2, .bannerBelowSlide h3{
+// 	color: white;
+// 	font-family: 'Calibri', sans-serif;
+// 	letter-spacing: 0px;
+// }
+.bannerBelowSlide a{
+	color: white;
+	border: 1px solid white;
+	border-radius: 30px;
+	padding: 14px 28px;
+}
+.bannerBelowSlide div{
+	margin-bottom: 20px;
+}
+.merhabaText p{
+	text-align: justify;
+	color: #878787;
+	padding: 10px 40px 10px 40px;
+	letter-spacing: 0.21em;
+	font-size: 20px;
+	font-family: Arial, sans-serif;    
+	line-height: 30.5714px;
+}
+#hizmetler{
+	text-align: center;
+}
+#hizmetler img{
+	width: 150px;
+	height: 150px;
+}
+#hizmetler p{
+	color: #777;
+}
+.orangeButton{
+	background: #f26529;
+	border-radius: 30px;
+	padding: 14px 28px;
+	color: white;
+}
+
+
+
+// .video-background {
+//   background: #000;
+//   position: fixed;
+//   top: 0; right: 0; bottom: 0; left: 0;
+//   z-index: -99;
+// }
+// .video-foreground,
+// .video-background iframe {
+//   position: relative;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   // height: 100%;
+//   pointer-events: none;
+// }
+// #vidtop-content {
+// 	top: 0;
+// 	color: #fff;
+// }
+// .vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+// .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+// .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+// @media (min-aspect-ratio: 16/9) {
+//   .video-foreground { height: 300%; top: -100%; }
+// }
+// @media (max-aspect-ratio: 16/9) {
+//   .video-foreground { width: 300%; left: -100%; }
+// }
+// @media all and (max-width: 600px) {
+// .vid-info { width: 50%; padding: .5rem; }
+// .vid-info h1 { margin-bottom: .2rem; }
+// }
+// @media all and (max-width: 500px) {
+// .vid-info .acronym { display: none; }
+// }
+
+.embed-container {
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	background: black;
+	z-index: 1;
+	overflow: auto; 
+	max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed {
+	position: absolute; 
+	top: -100px; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+#servislerimiz-content{
+	z-index: 9;    
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	padding: 100px;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+.middleBanner{
+	padding-top: 150px !important;
+	padding-bottom: 150px !important;
+	background: #000000 url('../images/middle.jpg') !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+#footer{
+	margin-top: 100px;
+}
